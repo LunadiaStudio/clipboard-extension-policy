@@ -2,24 +2,47 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Privacy Policy - Clipboard Extension</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      max-width: 700px;
+      line-height: 1.6;
+    }
+    h1 {
+      color: #333;
+    }
+    ul {
+      padding-left: 20px;
+    }
+  </style>
 </head>
 <body>
   <h1>Privacy Policy</h1>
-  <p><strong>Clipboard Extension</strong> does not collect, store, or transmit any personal information.</p>
+
+  <p>This Chrome Extension, <strong>Clipboard Extension</strong>, is designed to help users manage and reuse their clipboard history efficiently. It respects your privacy and does not collect any personal or identifiable information.</p>
+
+  <h2>Data Collection</h2>
+  <ul>
+    <li>No personal data is collected.</li>
+    <li>No data is transmitted to external servers.</li>
+    <li>All clipboard data is stored locally in your browser via <code>chrome.storage.local</code>.</li>
+  </ul>
 
   <h2>Permissions Used</h2>
   <ul>
-    <li><strong>clipboardRead</strong>: To read user clipboard data (text/images) for displaying in the popup UI only.</li>
-    <li><strong>clipboardWrite</strong>: To allow users to re-copy previously stored items.</li>
-    <li><strong>storage</strong>: To store clipboard history and settings locally in the browser.</li>
+    <li><strong>clipboardRead</strong>: To read clipboard content (text or images) when the popup is open.</li>
+    <li><strong>clipboardWrite</strong>: To allow users to re-copy previously saved clipboard items.</li>
+    <li><strong>storage</strong>: To save clipboard items and user settings locally.</li>
   </ul>
 
-  <h2>Data Collection</h2>
-  <p>This extension does <strong>not</strong> send any data to external servers. All data is stored locally using Chrome’s `storage.local` API.</p>
+  <h2>Security</h2>
+  <p>We do not use any remote code or third-party analytics. All code runs locally and does not communicate with outside sources.</p>
 
-  <p>No analytics, tracking, or personal identifiers are collected.</p>
-
-  <p>If you have any questions, please contact us at: Lunadiastudio@gmail.com</p>
+  <h2>Contact</h2>
+  <p>If you have any questions or concerns regarding this privacy policy, feel free to contact us at:</p>
+  <p><strong>Email:</strong> <a href="mailto:Lunadiastudio@gmail.com">Lunadiastudio@gmail.com</a></p>
 </body>
 </html>
